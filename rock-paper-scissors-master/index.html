@@ -1,37 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
-  Score
-  Rules
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="styles.css">
 
+  <!-- 
   You Picked
   The House Picked
 
   You Win
   You Lose
 
-  Play Again
+  Play Again -->
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="container">
+    <div class="title_and_scoreboard">
+      <div>
+        <div style="color: whitesmoke; font-weight: 700;">
+          Rock
+        </div>
+        <div style="color: whitesmoke; font-weight: 700;">
+          Paper
+        </div>
+        <div style="color: whitesmoke; font-weight: 700;">
+          Scissors
+        </div>
+      </div>
+      <div style="background-color: white; padding: 15px;">
+        <div style="color: blue;">
+          Score
+        </div>
+        <div style="color: black;">
+          12
+        </div>
+      </div>
+    </div>
+    <div class="rock_paper_and_scissors" style="margin-left: 35%; margin-top: 10%;">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="305" height="277">
+        <path fill="none" stroke="#000" stroke-width="15"
+          d="M291.5 7.5H4.574c3.119 0 52.416 84.667 147.892 254L291.5 7.5z" opacity=".2" />
+      </svg>
+
+    </div>
+  </div>
 
 
-  
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="305" height="277">
+    <path fill="none" stroke="#000" stroke-width="15" d="M291.5 7.5H4.574c3.119 0 52.416 84.667 147.892 254L291.5 7.5z"
+      opacity=".2" />
+  </svg> -->
 </body>
+
 </html>

@@ -1,0 +1,20 @@
+.title_and_scoreboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkblue;
+    width: 600px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    padding: 30px;
+};
+
+.container {
+    align-content: center;
+};
+
+.rock_paper_and_scissors {
+    margin-left: 20%;
+    margin-right: 20%;
+}

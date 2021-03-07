@@ -14,7 +14,16 @@
     align-content: center;
 };
 
-.rock_paper_and_scissors {
-    margin-left: 20%;
-    margin-right: 20%;
+
+
+.triangle {
+    position: absolute;
+    z-index: -1;
 }
+
+.rock {
+    position: relative;
+    z-index: 1;
+}
+
+
